@@ -12,7 +12,7 @@ import {
 
 function Navbar() {
     return (
-    <div className="min-h-screen bg-slate-50">
+        <>
       {/* Top Navbar */}
       <header className="border-b bg-white px-6 py-4 shadow-sm">
         <div className="flex items-center justify-between">
@@ -61,7 +61,7 @@ function Navbar() {
           </NavigationMenu>
         </div>
       </header>
-    </div>
+    </>
     )
 }
 
