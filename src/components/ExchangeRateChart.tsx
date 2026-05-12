@@ -46,7 +46,7 @@ const chartConfig = {
 
 export function ExchangeRateChart() {
   return (
-    <Card className="border-none shadow-sm">
+    <Card className="border-none shadow-sm w-full max-h-[600px]">
       <CardHeader>
         <CardTitle className="text-xl font-bold">
           Exchange Rate Trends
@@ -60,7 +60,7 @@ export function ExchangeRateChart() {
       <CardContent>
         <ChartContainer
           config={chartConfig}
-          className="h-[350px] w-full"
+          className="max-h-[500px] w-full"
         >
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={chartData}>

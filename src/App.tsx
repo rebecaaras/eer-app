@@ -5,7 +5,7 @@ import ChartFiltersCard from './components/ChartFiltersCard';
 
 function App() {
   return (
-  <div className="flex flex-col">
+  <div className="flex flex-col h-screen">
   <Navbar/>
   <div className="flex flex-row p-8 h-full">
     <ChartFiltersCard/>

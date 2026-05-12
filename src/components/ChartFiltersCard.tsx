@@ -6,7 +6,7 @@ import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader,
 
 export default function ChartFiltersCard() {
   return (
-    <Card className="w-full max-w-[20%] h-full mr-5">
+    <Card className="w-full max-w-[20%] h-full mr-5 max-h-[600px]">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
         <CardDescription>
