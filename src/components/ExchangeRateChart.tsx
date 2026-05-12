@@ -19,6 +19,7 @@ import {
   YAxis,
 } from "recharts"
 
+// should get from api
 const chartData = [
   { month: "Jan", USD: 5.12, EUR: 5.48, GBP: 6.31 },
   { month: "Feb", USD: 5.08, EUR: 5.42, GBP: 6.28 },
@@ -45,7 +46,7 @@ const chartConfig = {
 
 export function ExchangeRateChart() {
   return (
-    <Card className="rounded-2xl border-none shadow-sm">
+    <Card className="border-none shadow-sm">
       <CardHeader>
         <CardTitle className="text-xl font-bold">
           Exchange Rate Trends

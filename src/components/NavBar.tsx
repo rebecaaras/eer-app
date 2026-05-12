@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <>
       {/* Top Navbar */}
-      <header className="border-b bg-white px-6 py-4 shadow-sm">
+      <header className="border-b bg-white px-6 py-4 shadow-sm h-[70px]">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
