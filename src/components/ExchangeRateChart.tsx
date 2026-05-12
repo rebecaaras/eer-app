@@ -75,7 +75,7 @@ export function ExchangeRateChart() {
               <YAxis
                 tickLine={false}
                 axisLine={false}
-                domain={["dataMin - 0.1", "dataMax + 0.1"]}
+                domain={["dataMin", "dataMax"]}
               />
 
               <ChartTooltip
