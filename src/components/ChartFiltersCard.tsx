@@ -2,9 +2,9 @@ import { Card, CardDescription, CardFooter, CardHeader, CardTitle,} from "../com
 import {
   Field,
   FieldLabel,
-} from "../components/ui/field"
+} from "./ui/field"
 import MultiSelect from "./ui/multi-select"
-
+import { ComboBox } from "./ComboBox"
 
 export default function ChartFiltersCard() {
   return (
@@ -17,9 +17,17 @@ export default function ChartFiltersCard() {
       </CardHeader>
       <CardFooter className="flex-col gap-2">
         <Field className="max-w-sm">
-        <FieldLabel htmlFor="inline-start-input">Reference Area</FieldLabel>
-        <MultiSelect/>
-      </Field>
+          <FieldLabel htmlFor="inline-start-input">Reference Area</FieldLabel>
+          <MultiSelect/>
+        </Field>
+        <Field className="max-w-sm">
+          <FieldLabel htmlFor="inline-start-input">Series Type</FieldLabel>
+          <ComboBox options={["Nominal", "Real"]}/>
+        </Field>
+        <Field className="max-w-sm">
+          <FieldLabel htmlFor="inline-start-input">Basket</FieldLabel>
+          <ComboBox options={["Broad", "Narrow"]}/>
+        </Field>
       </CardFooter>
     </Card>
   )
