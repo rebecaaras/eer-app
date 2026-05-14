@@ -83,26 +83,27 @@ export function ExchangeRateChart() {
                 content={<ChartTooltipContent />}
               />
 
+              {/* TODO: automatically set line colors */}
               <Line
                 type="monotone"
+                stroke="var(--chart-1)"
                 dataKey="USD"
-                stroke="var(--color-USD)"
                 strokeWidth={3}
                 dot={false}
               />
 
               <Line
                 type="monotone"
+                stroke="var(--chart-2)"
                 dataKey="EUR"
-                stroke="var(--color-EUR)"
                 strokeWidth={3}
                 dot={false}
               />
 
               <Line
                 type="monotone"
+                stroke="var(--chart-3)"
                 dataKey="GBP"
-                stroke="var(--color-GBP)"
                 strokeWidth={3}
                 dot={false}
               />
