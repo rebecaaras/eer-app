@@ -5,6 +5,7 @@ import {
 } from "./ui/field"
 import MultiSelect from "./ui/multi-select"
 import { ComboBox } from "./ComboBox"
+import DatePicker from "./DatePicker"
 
 const refAreaOptions = [
   {label: "United States",value: "united states"},
@@ -34,6 +35,14 @@ export default function ChartFiltersCard() {
         <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Basket</FieldLabel>
           <ComboBox options={["Broad", "Narrow"]}/>
+        </Field>
+        <Field className="max-w-sm mb-2">
+            <FieldLabel htmlFor="inline-start-input">Start Date</FieldLabel>
+            <DatePicker/>
+        </Field>
+        <Field className="max-w-sm mb-2">
+            <FieldLabel htmlFor="inline-start-input">End Date</FieldLabel>
+            <DatePicker/>
         </Field>
       </CardFooter>
     </Card>
