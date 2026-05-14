@@ -7,14 +7,21 @@ import MultiSelect from "./ui/multi-select"
 import { ComboBox } from "./ComboBox"
 import DatePicker from "./DatePicker"
 
-const refAreaOptions = [
-  {label: "United States",value: "united states"},
-  {label: "Brazil",value: "brazil"},
-  {label: "Canada",value: "canada"},
-  {label: "Switzerland",value: "switzerland"},
-]
+//const refAreaOptions = [
+//  {label: "United States",value: "united states"},
+//  {label: "Brazil",value: "brazil"},
+//  {label: "Canada",value: "canada"},
+//  {label: "Switzerland",value: "switzerland"},
+//]
 
-export default function ChartFiltersCard() {
+export default function ChartFiltersCard({data}) {
+
+  // this function might need some refactoring!
+  const series = data;
+  let refAreaOptions = series.map((item) => (
+    {label: item.country_name, value: item.country_name}
+  )).filter((item, value, self) => value === self.findIndex((t) => t.value === item.value));
+
   return (
     <Card className="w-full max-w-[20%] h-full mr-5 max-h-[600px]">
       <CardHeader>
