@@ -11,35 +11,21 @@ import {
 } from "../../components/ui/command";
 import { Command as CommandPrimitive } from "cmdk";
 
-type Framework = Record<"value" | "label", string>;
+type MultiSelectOption = Record<"value" | "label", string>;
 
-const area = [
-  {
-    value: "united states",
-    label: "United States",
-  },
-  {
-    value: "switzerland",
-    label: "Switzerland",
-  },
-  {
-    value: "canada",
-    label: "Canada",
-  },
-  {
-    value: "brazil",
-    label: "Brazil",
-  },
-] satisfies Framework[];
+type MultiSelectProps = {options: MultiSelectOption[], placeholder?: string};
 
-export default function MultiSelect() {
+export default function MultiSelect({
+  options,
+  placeholder = "Select options...",
+}: MultiSelectProps) {
   const inputRef = React.useRef<HTMLInputElement>(null);
   const [open, setOpen] = React.useState(false);
-  const [selected, setSelected] = React.useState<Framework[]>([area[1]]);
+  const [selected, setSelected] = React.useState<MultiSelectOption[]>([options[1]]);
   const [inputValue, setInputValue] = React.useState("");
 
-  const handleUnselect = React.useCallback((framework: Framework) => {
-    setSelected((prev) => prev.filter((s) => s.value !== framework.value));
+  const handleUnselect = React.useCallback((option: MultiSelectOption) => {
+    setSelected((prev) => prev.filter((s) => s.value !== option.value));
   }, []);
 
   const handleKeyDown = React.useCallback(
@@ -64,8 +50,8 @@ export default function MultiSelect() {
     [],
   );
 
-  const selectables = area.filter(
-    (framework) => !selected.includes(framework),
+  const selectables = options.filter(
+    (option) => !selected.includes(option),
   );
 
   console.log(selectables, selected, inputValue);
@@ -77,22 +63,22 @@ export default function MultiSelect() {
     >
       <div className="group border border-input p-2 text-sm ring-offset-background focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2">
         <div className="flex flex-wrap gap-1">
-          {selected.map((framework) => {
+          {selected.map((option) => {
             return (
-              <Badge key={framework.value} variant="outline">
-                {framework.label}
+              <Badge key={option.value} variant="outline">
+                {option.label}
                 <button
                   className="ml-1 rounded-full outline-none ring-offset-background focus:ring-2 focus:ring-ring focus:ring-offset-2"
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
-                      handleUnselect(framework);
+                      handleUnselect(option);
                     }
                   }}
                   onMouseDown={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
                   }}
-                  onClick={() => handleUnselect(framework)}
+                  onClick={() => handleUnselect(option)}
                 >
                   <X className="h-3 w-3 text-muted-foreground hover:text-foreground" />
                 </button>
@@ -106,7 +92,7 @@ export default function MultiSelect() {
             onValueChange={setInputValue}
             onBlur={() => setOpen(false)}
             onFocus={() => setOpen(true)}
-            placeholder="Select area..."
+            placeholder={placeholder}
             className="ml-2 flex-1 bg-transparent outline-none placeholder:text-muted-foreground"
           />
         </div>
@@ -116,21 +102,21 @@ export default function MultiSelect() {
           {open && selectables.length > 0 ? (
             <div className="absolute top-0 z-10 w-full rounded-md border bg-popover text-popover-foreground shadow-md outline-none animate-in">
               <CommandGroup className="h-full overflow-auto">
-                {selectables.map((framework) => {
+                {selectables.map((option) => {
                   return (
                     <CommandItem
-                      key={framework.value}
+                      key={option.value}
                       onMouseDown={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
                       }}
-                      onSelect={(value) => {
+                      onSelect={() => {
                         setInputValue("");
-                        setSelected((prev) => [...prev, framework]);
+                        setSelected((prev) => [...prev, option]);
                       }}
                       className={"cursor-pointer"}
                     >
-                      {framework.label}
+                      {option.label}
                     </CommandItem>
                   );
                 })}

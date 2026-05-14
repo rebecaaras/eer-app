@@ -6,6 +6,13 @@ import {
 import MultiSelect from "./ui/multi-select"
 import { ComboBox } from "./ComboBox"
 
+const refAreaOptions = [
+  {label: "United States",value: "united states"},
+  {label: "Brazil",value: "brazil"},
+  {label: "Canada",value: "canada"},
+  {label: "Switzerland",value: "switzerland"},
+]
+
 export default function ChartFiltersCard() {
   return (
     <Card className="w-full max-w-[20%] h-full mr-5 max-h-[600px]">
@@ -18,7 +25,7 @@ export default function ChartFiltersCard() {
       <CardFooter className="flex-col gap-2">
         <Field className="max-w-sm">
           <FieldLabel htmlFor="inline-start-input">Reference Area</FieldLabel>
-          <MultiSelect/>
+          <MultiSelect options = {refAreaOptions} placeholder="Select area..."/>
         </Field>
         <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Series Type</FieldLabel>
