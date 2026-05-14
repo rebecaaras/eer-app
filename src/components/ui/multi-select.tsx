@@ -54,8 +54,6 @@ export default function MultiSelect({
     (option) => !selected.includes(option),
   );
 
-  console.log(selectables, selected, inputValue);
-
   return (
     <Command
       onKeyDown={handleKeyDown}
