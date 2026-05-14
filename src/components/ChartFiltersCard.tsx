@@ -30,11 +30,11 @@ export default function ChartFiltersCard() {
         </Field>
         <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Series Type</FieldLabel>
-          <ComboBox options={["Nominal", "Real"]}/>
+          <ComboBox options={["Nominal", "Real"]} placeholder="Select type..."/>
         </Field>
         <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Basket</FieldLabel>
-          <ComboBox options={["Broad", "Narrow"]}/>
+          <ComboBox options={["Broad", "Narrow"]} placeholder="Select basket..."/>
         </Field>
         <Field className="max-w-sm mb-2">
             <FieldLabel htmlFor="inline-start-input">Start Date</FieldLabel>
