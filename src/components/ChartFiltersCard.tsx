@@ -20,11 +20,11 @@ export default function ChartFiltersCard() {
           <FieldLabel htmlFor="inline-start-input">Reference Area</FieldLabel>
           <MultiSelect/>
         </Field>
-        <Field className="max-w-sm">
+        <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Series Type</FieldLabel>
           <ComboBox options={["Nominal", "Real"]}/>
         </Field>
-        <Field className="max-w-sm">
+        <Field className="max-w-sm mb-2">
           <FieldLabel htmlFor="inline-start-input">Basket</FieldLabel>
           <ComboBox options={["Broad", "Narrow"]}/>
         </Field>
