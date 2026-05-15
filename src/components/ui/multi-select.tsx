@@ -62,7 +62,7 @@ export default function MultiSelect({
         <div className="flex flex-wrap gap-1">
           {selected.map((option) => {
             return (
-              <Badge key={option.value} variant="outline">
+              <Badge key={option.value} variant="outline" className="capitalize">
                 {option.label}
                 <button
                   className="ml-1 rounded-full outline-none ring-offset-background focus:ring-2 focus:ring-ring focus:ring-offset-2"
@@ -111,7 +111,7 @@ export default function MultiSelect({
                         setInputValue("");
                         setSelected((prev) => [...prev, option]);
                       }}
-                      className={"cursor-pointer"}
+                      className={"cursor-pointer capitalize"}
                     >
                       {option.label}
                     </CommandItem>
