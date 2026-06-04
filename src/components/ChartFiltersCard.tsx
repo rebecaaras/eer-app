@@ -17,8 +17,7 @@ import DatePicker from "./DatePicker"
 export default function ChartFiltersCard({data}) {
 
   // this function might need some refactoring!
-  const series = data;
-  let refAreaOptions = series.map((item) => (
+  let refAreaOptions = data.map((item) => (
     {label: item.country_name, value: item.country_name}
   )).filter((item, value, self) => value === self.findIndex((t) => t.value === item.value));
 
