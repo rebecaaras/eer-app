@@ -1,11 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios"
-import type { Series } from "../types";
-
-type ApiContextType = {
-  seriesData: Series[];
-  isLoading: boolean;
-}
+import type { ApiContextType } from "../types";
 
 //Come up with a better name
 export const ApiContext = createContext<ApiContextType | undefined>(
