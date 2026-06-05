@@ -11,3 +11,8 @@ export type MultiSelectOption = {
   label: string;
   value: string;
 };
+
+export type ApiContextType = {
+  seriesData: Series[];
+  isLoading: boolean;
+}
