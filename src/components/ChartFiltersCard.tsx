@@ -6,18 +6,14 @@ import {
 import MultiSelect from "./ui/multi-select"
 import { ComboBox } from "./ComboBox"
 import DatePicker from "./DatePicker"
+import { useContext } from "react"
+import { ApiContext } from "../context/apiContext"
 
-//const refAreaOptions = [
-//  {label: "United States",value: "united states"},
-//  {label: "Brazil",value: "brazil"},
-//  {label: "Canada",value: "canada"},
-//  {label: "Switzerland",value: "switzerland"},
-//]
-
-export default function ChartFiltersCard({data}) {
+export default function ChartFiltersCard() {
+  const {seriesData} = useContext(ApiContext);
 
   // this function might need some refactoring!
-  let refAreaOptions = data.map((item) => (
+  let refAreaOptions = seriesData.map((item) => (
     {label: item.country_name, value: item.country_name}
   )).filter((item, value, self) => value === self.findIndex((t) => t.value === item.value));
 

@@ -5,7 +5,7 @@ import { ApiContext } from './context/apiContext';
 import { useContext } from 'react';
 
 export default function App() {
-  const {seriesData, isLoading} = useContext(ApiContext);
+  const {isLoading} = useContext(ApiContext);
 
   if (isLoading) {
     return(
@@ -20,7 +20,7 @@ export default function App() {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex flex-row p-8 h-full">
-        <ChartFiltersCard data={seriesData}/>
+        <ChartFiltersCard/>
         <ExchangeRateChart />
       </div>
     </div>
