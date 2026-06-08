@@ -8,6 +8,7 @@ import { ComboBox } from "./ComboBox"
 import DatePicker from "./DatePicker"
 import { useContext } from "react"
 import { ApiContext } from "../context/apiContext"
+import { Button } from "./ui/button"
 
 export default function ChartFiltersCard() {
   const {seriesData} = useContext(ApiContext);
@@ -46,6 +47,7 @@ export default function ChartFiltersCard() {
             <FieldLabel htmlFor="inline-start-input">End Date</FieldLabel>
             <DatePicker/>
         </Field>
+        <Button type="submit" className="w-full border-grey" variant="secondary">Show series</Button>
       </CardFooter>
     </Card>
   )
