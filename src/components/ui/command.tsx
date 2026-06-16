@@ -15,7 +15,7 @@ import {
 } from "../../components/ui/input-group"
 import { MagnifyingGlassIcon, CheckIcon } from "@phosphor-icons/react"
 
-function Command({
+export function Command({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive>) {
@@ -31,7 +31,7 @@ function Command({
   )
 }
 
-function CommandDialog({
+export function CommandDialog({
   title = "Command Palette",
   description = "Search for a command to run...",
   children,
@@ -63,7 +63,7 @@ function CommandDialog({
   )
 }
 
-function CommandInput({
+export function CommandInput({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Input>) {
@@ -86,7 +86,7 @@ function CommandInput({
   )
 }
 
-function CommandList({
+export function CommandList({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.List>) {
@@ -102,7 +102,7 @@ function CommandList({
   )
 }
 
-function CommandEmpty({
+export function CommandEmpty({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Empty>) {
@@ -115,7 +115,7 @@ function CommandEmpty({
   )
 }
 
-function CommandGroup({
+export function CommandGroup({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Group>) {
@@ -131,7 +131,7 @@ function CommandGroup({
   )
 }
 
-function CommandSeparator({
+export function CommandSeparator({
   className,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Separator>) {
@@ -144,7 +144,7 @@ function CommandSeparator({
   )
 }
 
-function CommandItem({
+export function CommandItem({
   className,
   children,
   ...props
@@ -164,7 +164,7 @@ function CommandItem({
   )
 }
 
-function CommandShortcut({
+export function CommandShortcut({
   className,
   ...props
 }: React.ComponentProps<"span">) {
@@ -178,16 +178,4 @@ function CommandShortcut({
       {...props}
     />
   )
-}
-
-export {
-  Command,
-  CommandDialog,
-  CommandInput,
-  CommandList,
-  CommandEmpty,
-  CommandGroup,
-  CommandItem,
-  CommandShortcut,
-  CommandSeparator,
 }
