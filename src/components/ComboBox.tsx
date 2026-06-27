@@ -19,6 +19,8 @@ export function ComboBox({ options, placeholder = "Select an option", onChange}:
 
   function handleChange(value: string){
     setValue(value)
+    // Whatever function passed in as a prop will receive the value 
+    // variable and be able to use in the outer context
     onChange?.(value)
   }
 
