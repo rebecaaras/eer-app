@@ -104,8 +104,15 @@ export default function ChartFiltersCard() {
               Series Type
             </FieldLabel>
             <ComboBox 
-              options={["Nominal", "Real"]} 
+              options={["nominal", "real"]}
               placeholder="Select type..."
+              onChange={
+                (value) => {
+                  setFilters((prev)=> ({
+                    ...prev,
+                    seriesType: value
+                  }))
+                }}
             />
           </Field>
 
@@ -114,8 +121,15 @@ export default function ChartFiltersCard() {
               Basket
             </FieldLabel>
             <ComboBox 
-              options={["Broad", "Narrow"]} 
+              options={["broad", "narrow"]} 
               placeholder="Select basket..."
+              onChange={
+                (value) => {
+                  setFilters((prev)=> ({
+                    ...prev,
+                    basket: value
+                  }))
+                }}
             />
           </Field>
 
