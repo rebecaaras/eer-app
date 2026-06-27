@@ -81,9 +81,9 @@ export default function ChartFiltersCard() {
               }
             }>
               <MultiSelectTrigger className="w-full max-w-[400px]">
-                <MultiSelectValue placeholder="Select areas..." />
+                <MultiSelectValue/>
               </MultiSelectTrigger>
-              <MultiSelectContent>
+              <MultiSelectContent search={{placeholder: "Select areas..."}}>
                 <MultiSelectGroup>
                   {refAreaOptions.map((option) => (
                     <MultiSelectItem
