@@ -1,4 +1,4 @@
-import { useLocalStorage } from "@/hooks/useLocalStorage"
+import { useLocalStorage } from "../../hooks/useLocalStorage"
 import {
   Cancel01Icon,
   Loading03Icon,
