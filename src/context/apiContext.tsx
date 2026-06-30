@@ -4,22 +4,22 @@ import type { ApiContextType } from "../types";
 
 //Come up with a better name
 export const ApiContext = createContext<ApiContextType | undefined>(
-  {seriesData: [], isLoading: false}
+  {seriesItems: [], isLoading: false}
 );
 
 export default function ApiContextProvider({children}){
-  const [seriesData, setSeriesData] = useState([]);
+  const [seriesItems, setseriesItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   
   useEffect(() => {
     async function fetchSeries(){
       try {
         const res = await axios.get("http://127.0.0.1:3000/series");
-        setSeriesData(res.data);
+        setseriesItems(res.data);
 
       } catch (error) {
         console.log(error)
-        setSeriesData([]);
+        setseriesItems([]);
 
       } finally {
         setIsLoading(false);
@@ -30,7 +30,7 @@ export default function ApiContextProvider({children}){
   }, []);
 
   return (
-   <ApiContext.Provider value = {{seriesData, isLoading}}>
+   <ApiContext.Provider value = {{seriesItems, isLoading}}>
      {children}
    </ApiContext.Provider>
   )

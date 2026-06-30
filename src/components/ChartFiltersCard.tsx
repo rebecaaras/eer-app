@@ -18,7 +18,7 @@ import { ApiContext } from "../context/apiContext"
 import { Button } from "./ui/button"
 
 export default function ChartFiltersCard() {
-  const {seriesData} = useContext(ApiContext);
+  const {seriesItems} = useContext(ApiContext);
 
   const [filters, setFilters] = useState({
     referenceAreas: [] as string[],
@@ -31,7 +31,7 @@ export default function ChartFiltersCard() {
   // this function might need some refactoring!
   // what does useMemo do ?
   let refAreaOptions = useMemo(() =>
-    seriesData
+    seriesItems
       .map((item) => ({
         label: item.country_name, 
         value: item.country_name,
@@ -40,7 +40,7 @@ export default function ChartFiltersCard() {
         (item, value, self) => 
           value === self.findIndex((t) => t.value === item.value)
       ),
-    [seriesData]
+    [seriesItems]
   );
 
   const handleSubmit = async (e: React.FormEvent) => {

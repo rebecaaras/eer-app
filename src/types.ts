@@ -1,4 +1,4 @@
-export type Series = {
+export type SeriesItem = {
   basket: string;
   country_code: string;
   country_name: string;
@@ -13,6 +13,6 @@ export type MultiSelectOption = {
 };
 
 export type ApiContextType = {
-  seriesData: Series[];
+  seriesItems: SeriesItem[];
   isLoading: boolean;
 }
