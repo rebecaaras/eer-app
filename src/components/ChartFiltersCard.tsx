@@ -137,14 +137,30 @@ export default function ChartFiltersCard() {
               <FieldLabel htmlFor="inline-start-input">
                 Start Date
               </FieldLabel>
-              <DatePicker/>
+               <DatePicker
+                onChange={
+                  (value) => {
+                    setFilters((prev)=> ({
+                      ...prev,
+                      startDate: value
+                    }))
+                  }}
+              />
           </Field>
 
           <Field className="max-w-sm mb-2">
               <FieldLabel htmlFor="inline-start-input">
                 End Date
               </FieldLabel>
-              <DatePicker/>
+              <DatePicker
+                onChange={
+                  (value) => {
+                    setFilters((prev)=> ({
+                      ...prev,
+                      endDate: value
+                    }))
+                  }}
+              />
           </Field>
 
           <Button 
