@@ -1,4 +1,4 @@
-import { Card, CardDescription, CardFooter, CardHeader, CardTitle,} from "../components/ui/card"
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle} from "../components/ui/card"
 import {
   Field,
   FieldLabel,
@@ -13,12 +13,18 @@ import {
 } from "./MultiSelect"
 import { ComboBox } from "./ComboBox"
 import DatePicker from "./DatePicker"
-import { useContext, useMemo, useState } from "react"
+import { useContext, useMemo } from "react"
 import { ApiContext } from "../context/apiContext"
 import { Button } from "./ui/button"
 
 export default function ChartFiltersCard() {
-  const {seriesItems} = useContext(ApiContext);
+  const { 
+    seriesItems, 
+    filteredSeriesItems, 
+    setFilteredSeriesItems,
+    filters,
+    setFilters, 
+  } = useContext(ApiContext);
 
   const [filters, setFilters] = useState({
     referenceAreas: [] as string[],
@@ -45,16 +51,8 @@ export default function ChartFiltersCard() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-
-    const payload = {
-      referenceAreas: filters.referenceAreas,
-      seriesType: filters.seriesType,
-      basket: filters.basket,
-      startDate: filters.startDate?.toISOString(),
-      endDate: filters.endDate?.toISOString(),
-    };
-
-    console.log(payload);
+    //TODO: write submit function
+    console.log('Placeholder submit function.')
   }
 
   return (
@@ -74,10 +72,15 @@ export default function ChartFiltersCard() {
             </FieldLabel>
             <MultiSelect onValuesChange={
               (values) => {
+                console.log("filteredSeriesItems ", filteredSeriesItems)
                 setFilters((prev) => ({
                   ...prev,
                   referenceAreas: values,
                 }))
+                //filteredItems is being set, but there seems to be some off by one error
+                setFilteredSeriesItems(seriesItems.filter(
+                  item => (filters.referenceAreas.some(area => area === item.country_name))
+                ))
               }
             }>
               <MultiSelectTrigger className="w-full max-w-[400px]">

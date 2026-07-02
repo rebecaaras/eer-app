@@ -12,7 +12,19 @@ export type MultiSelectOption = {
   value: string;
 };
 
+type Filters = {
+    referenceAreas: string[],
+    seriesType: string,
+    basket: string,
+    startDate: Date | null,
+    endDate: Date | null,
+}
+
 export type ApiContextType = {
   seriesItems: SeriesItem[];
+  filteredSeriesItems: SeriesItem[];
+  setFilteredSeriesItems: (value: React.SetStateAction<SeriesItem[]>) => void;
+  filters: Filters;
+  setFilters: (value: React.SetStateAction<Filters>) => void;
   isLoading: boolean;
 }
