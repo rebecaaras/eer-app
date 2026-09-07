@@ -1,9 +1,10 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios"
 import type { ApiContextType } from "../types";
+import { API_BASE_URL } from "../lib/api";
 
 //Come up with a better name
-export const ApiContext = createContext<ApiContextType | undefined>(
+export const ApiContext = createContext<ApiContextType>(
   {seriesItems: [], isLoading: false}
 );
 
@@ -14,7 +15,7 @@ export default function ApiContextProvider({children}){
   useEffect(() => {
     async function fetchSeries(){
       try {
-        const res = await axios.get("http://127.0.0.1:3000/series");
+        const res = await axios.get(`${API_BASE_URL}/series`);
         setseriesItems(res.data);
 
       } catch (error) {

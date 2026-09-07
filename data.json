@@ -1,0 +1,1842 @@
+[
+  {
+    "id": 1,
+    "basket": "narrow",
+    "country_code": "CA",
+    "country_name": "canada",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 2,
+    "basket": "narrow",
+    "country_code": "CH",
+    "country_name": "switzerland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 3,
+    "basket": "narrow",
+    "country_code": "BE",
+    "country_name": "belgium",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 4,
+    "basket": "narrow",
+    "country_code": "AT",
+    "country_name": "austria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 5,
+    "basket": "narrow",
+    "country_code": "AU",
+    "country_name": "australia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 6,
+    "basket": "narrow",
+    "country_code": "HK",
+    "country_name": "hong kong sar",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 7,
+    "basket": "narrow",
+    "country_code": "GB",
+    "country_name": "united kingdom",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 8,
+    "basket": "narrow",
+    "country_code": "GR",
+    "country_name": "greece",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 9,
+    "basket": "narrow",
+    "country_code": "FI",
+    "country_name": "finland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 10,
+    "basket": "narrow",
+    "country_code": "FR",
+    "country_name": "france",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 11,
+    "basket": "narrow",
+    "country_code": "ES",
+    "country_name": "spain",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 12,
+    "basket": "narrow",
+    "country_code": "DK",
+    "country_name": "denmark",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 13,
+    "basket": "narrow",
+    "country_code": "DE",
+    "country_name": "germany",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 14,
+    "basket": "broad",
+    "country_code": "CH",
+    "country_name": "switzerland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 15,
+    "basket": "narrow",
+    "country_code": "CA",
+    "country_name": "canada",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 16,
+    "basket": "broad",
+    "country_code": "CL",
+    "country_name": "chile",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 17,
+    "basket": "narrow",
+    "country_code": "CH",
+    "country_name": "switzerland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 18,
+    "basket": "broad",
+    "country_code": "BR",
+    "country_name": "brazil",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 19,
+    "basket": "broad",
+    "country_code": "CA",
+    "country_name": "canada",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 20,
+    "basket": "broad",
+    "country_code": "BE",
+    "country_name": "belgium",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 21,
+    "basket": "broad",
+    "country_code": "BG",
+    "country_name": "bulgaria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 22,
+    "basket": "broad",
+    "country_code": "AU",
+    "country_name": "australia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 23,
+    "basket": "narrow",
+    "country_code": "KR",
+    "country_name": "korea",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 24,
+    "basket": "broad",
+    "country_code": "BA",
+    "country_name": "bosnia and herzegovina",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 25,
+    "basket": "broad",
+    "country_code": "AR",
+    "country_name": "argentina",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 26,
+    "basket": "narrow",
+    "country_code": "IT",
+    "country_name": "italy",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 27,
+    "basket": "broad",
+    "country_code": "AT",
+    "country_name": "austria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 28,
+    "basket": "narrow",
+    "country_code": "JP",
+    "country_name": "japan",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 29,
+    "basket": "narrow",
+    "country_code": "IE",
+    "country_name": "ireland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 30,
+    "basket": "narrow",
+    "country_code": "BE",
+    "country_name": "belgium",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 31,
+    "basket": "narrow",
+    "country_code": "AT",
+    "country_name": "austria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 32,
+    "basket": "narrow",
+    "country_code": "AU",
+    "country_name": "australia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 33,
+    "basket": "broad",
+    "country_code": "HR",
+    "country_name": "croatia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 34,
+    "basket": "broad",
+    "country_code": "HU",
+    "country_name": "hungary",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 35,
+    "basket": "broad",
+    "country_code": "GR",
+    "country_name": "greece",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 36,
+    "basket": "narrow",
+    "country_code": "SE",
+    "country_name": "sweden",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 37,
+    "basket": "broad",
+    "country_code": "HK",
+    "country_name": "hong kong sar",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 38,
+    "basket": "narrow",
+    "country_code": "SG",
+    "country_name": "singapore",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 39,
+    "basket": "broad",
+    "country_code": "FR",
+    "country_name": "france",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 40,
+    "basket": "broad",
+    "country_code": "GB",
+    "country_name": "united kingdom",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 41,
+    "basket": "broad",
+    "country_code": "ES",
+    "country_name": "spain",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 42,
+    "basket": "broad",
+    "country_code": "FI",
+    "country_name": "finland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 43,
+    "basket": "broad",
+    "country_code": "DZ",
+    "country_name": "algeria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 44,
+    "basket": "broad",
+    "country_code": "EE",
+    "country_name": "estonia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 45,
+    "basket": "narrow",
+    "country_code": "PT",
+    "country_name": "portugal",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 46,
+    "basket": "broad",
+    "country_code": "DE",
+    "country_name": "germany",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 47,
+    "basket": "broad",
+    "country_code": "DK",
+    "country_name": "denmark",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 48,
+    "basket": "broad",
+    "country_code": "CY",
+    "country_name": "cyprus",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 49,
+    "basket": "narrow",
+    "country_code": "NO",
+    "country_name": "norway",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 50,
+    "basket": "broad",
+    "country_code": "CZ",
+    "country_name": "czechia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 51,
+    "basket": "narrow",
+    "country_code": "NZ",
+    "country_name": "new zealand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 52,
+    "basket": "broad",
+    "country_code": "CN",
+    "country_name": "china",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 53,
+    "basket": "broad",
+    "country_code": "CO",
+    "country_name": "colombia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 54,
+    "basket": "narrow",
+    "country_code": "NL",
+    "country_name": "netherlands",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 55,
+    "basket": "broad",
+    "country_code": "MX",
+    "country_name": "mexico",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 56,
+    "basket": "broad",
+    "country_code": "CH",
+    "country_name": "switzerland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 57,
+    "basket": "broad",
+    "country_code": "MY",
+    "country_name": "malaysia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 58,
+    "basket": "broad",
+    "country_code": "CL",
+    "country_name": "chile",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 59,
+    "basket": "narrow",
+    "country_code": "MX",
+    "country_name": "mexico",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 60,
+    "basket": "broad",
+    "country_code": "MK",
+    "country_name": "north macedonia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 61,
+    "basket": "broad",
+    "country_code": "BR",
+    "country_name": "brazil",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 62,
+    "basket": "broad",
+    "country_code": "MT",
+    "country_name": "malta",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 63,
+    "basket": "broad",
+    "country_code": "CA",
+    "country_name": "canada",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 64,
+    "basket": "broad",
+    "country_code": "LV",
+    "country_name": "latvia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 65,
+    "basket": "broad",
+    "country_code": "CY",
+    "country_name": "cyprus",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 66,
+    "basket": "narrow",
+    "country_code": "NO",
+    "country_name": "norway",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 67,
+    "basket": "broad",
+    "country_code": "MA",
+    "country_name": "morocco",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 68,
+    "basket": "broad",
+    "country_code": "CZ",
+    "country_name": "czechia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 69,
+    "basket": "narrow",
+    "country_code": "NZ",
+    "country_name": "new zealand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 70,
+    "basket": "broad",
+    "country_code": "LT",
+    "country_name": "lithuania",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 71,
+    "basket": "broad",
+    "country_code": "CN",
+    "country_name": "china",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 72,
+    "basket": "broad",
+    "country_code": "LU",
+    "country_name": "luxembourg",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 73,
+    "basket": "broad",
+    "country_code": "CO",
+    "country_name": "colombia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 74,
+    "basket": "narrow",
+    "country_code": "NL",
+    "country_name": "netherlands",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 75,
+    "basket": "broad",
+    "country_code": "JP",
+    "country_name": "japan",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 76,
+    "basket": "broad",
+    "country_code": "AR",
+    "country_name": "argentina",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 77,
+    "basket": "narrow",
+    "country_code": "IT",
+    "country_name": "italy",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 78,
+    "basket": "broad",
+    "country_code": "KR",
+    "country_name": "korea",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 79,
+    "basket": "broad",
+    "country_code": "AT",
+    "country_name": "austria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 80,
+    "basket": "narrow",
+    "country_code": "JP",
+    "country_name": "japan",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 81,
+    "basket": "broad",
+    "country_code": "IS",
+    "country_name": "iceland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 82,
+    "basket": "narrow",
+    "country_code": "XM",
+    "country_name": "euro area",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 83,
+    "basket": "broad",
+    "country_code": "IT",
+    "country_name": "italy",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 84,
+    "basket": "broad",
+    "country_code": "IL",
+    "country_name": "israel",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 85,
+    "basket": "narrow",
+    "country_code": "TW",
+    "country_name": "chinese taipei",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 86,
+    "basket": "broad",
+    "country_code": "BE",
+    "country_name": "belgium",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 87,
+    "basket": "broad",
+    "country_code": "IN",
+    "country_name": "india",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 88,
+    "basket": "narrow",
+    "country_code": "US",
+    "country_name": "united states",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 89,
+    "basket": "broad",
+    "country_code": "BG",
+    "country_name": "bulgaria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 90,
+    "basket": "broad",
+    "country_code": "ID",
+    "country_name": "indonesia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 91,
+    "basket": "broad",
+    "country_code": "AU",
+    "country_name": "australia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 92,
+    "basket": "narrow",
+    "country_code": "KR",
+    "country_name": "korea",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 93,
+    "basket": "broad",
+    "country_code": "IE",
+    "country_name": "ireland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 94,
+    "basket": "broad",
+    "country_code": "BA",
+    "country_name": "bosnia and herzegovina",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 95,
+    "basket": "broad",
+    "country_code": "SK",
+    "country_name": "slovakia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 96,
+    "basket": "narrow",
+    "country_code": "HK",
+    "country_name": "hong kong sar",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 97,
+    "basket": "broad",
+    "country_code": "TH",
+    "country_name": "thailand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 98,
+    "basket": "broad",
+    "country_code": "SG",
+    "country_name": "singapore",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 99,
+    "basket": "narrow",
+    "country_code": "GB",
+    "country_name": "united kingdom",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 100,
+    "basket": "broad",
+    "country_code": "SI",
+    "country_name": "slovenia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 101,
+    "basket": "narrow",
+    "country_code": "GR",
+    "country_name": "greece",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 102,
+    "basket": "broad",
+    "country_code": "SA",
+    "country_name": "saudi arabia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 103,
+    "basket": "narrow",
+    "country_code": "IE",
+    "country_name": "ireland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 104,
+    "basket": "broad",
+    "country_code": "SE",
+    "country_name": "sweden",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 105,
+    "basket": "broad",
+    "country_code": "RS",
+    "country_name": "serbia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 106,
+    "basket": "broad",
+    "country_code": "RU",
+    "country_name": "russia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 107,
+    "basket": "broad",
+    "country_code": "PT",
+    "country_name": "portugal",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 108,
+    "basket": "narrow",
+    "country_code": "DK",
+    "country_name": "denmark",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 109,
+    "basket": "broad",
+    "country_code": "RO",
+    "country_name": "romania",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 110,
+    "basket": "broad",
+    "country_code": "PH",
+    "country_name": "philippines",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 111,
+    "basket": "broad",
+    "country_code": "PL",
+    "country_name": "poland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 112,
+    "basket": "narrow",
+    "country_code": "DE",
+    "country_name": "germany",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 113,
+    "basket": "broad",
+    "country_code": "NZ",
+    "country_name": "new zealand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 114,
+    "basket": "narrow",
+    "country_code": "FI",
+    "country_name": "finland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 115,
+    "basket": "broad",
+    "country_code": "PE",
+    "country_name": "peru",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 116,
+    "basket": "narrow",
+    "country_code": "FR",
+    "country_name": "france",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 117,
+    "basket": "broad",
+    "country_code": "NL",
+    "country_name": "netherlands",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 118,
+    "basket": "broad",
+    "country_code": "NO",
+    "country_name": "norway",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 119,
+    "basket": "narrow",
+    "country_code": "ES",
+    "country_name": "spain",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 120,
+    "basket": "broad",
+    "country_code": "MX",
+    "country_name": "mexico",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 121,
+    "basket": "broad",
+    "country_code": "MY",
+    "country_name": "malaysia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 122,
+    "basket": "broad",
+    "country_code": "MK",
+    "country_name": "north macedonia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 123,
+    "basket": "broad",
+    "country_code": "MT",
+    "country_name": "malta",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 124,
+    "basket": "broad",
+    "country_code": "NZ",
+    "country_name": "new zealand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 125,
+    "basket": "broad",
+    "country_code": "PE",
+    "country_name": "peru",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 126,
+    "basket": "broad",
+    "country_code": "NL",
+    "country_name": "netherlands",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 127,
+    "basket": "broad",
+    "country_code": "NO",
+    "country_name": "norway",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 128,
+    "basket": "broad",
+    "country_code": "JP",
+    "country_name": "japan",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 129,
+    "basket": "broad",
+    "country_code": "KR",
+    "country_name": "korea",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 130,
+    "basket": "broad",
+    "country_code": "ZA",
+    "country_name": "south africa",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 131,
+    "basket": "broad",
+    "country_code": "IS",
+    "country_name": "iceland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 132,
+    "basket": "narrow",
+    "country_code": "XM",
+    "country_name": "euro area",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 133,
+    "basket": "broad",
+    "country_code": "IT",
+    "country_name": "italy",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 134,
+    "basket": "broad",
+    "country_code": "US",
+    "country_name": "united states",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 135,
+    "basket": "broad",
+    "country_code": "LV",
+    "country_name": "latvia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 136,
+    "basket": "broad",
+    "country_code": "XM",
+    "country_name": "euro area",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 137,
+    "basket": "broad",
+    "country_code": "MA",
+    "country_name": "morocco",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 138,
+    "basket": "broad",
+    "country_code": "TR",
+    "country_name": "türkiye",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 139,
+    "basket": "broad",
+    "country_code": "LT",
+    "country_name": "lithuania",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 140,
+    "basket": "broad",
+    "country_code": "TW",
+    "country_name": "chinese taipei",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 141,
+    "basket": "broad",
+    "country_code": "LU",
+    "country_name": "luxembourg",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 142,
+    "basket": "broad",
+    "country_code": "HR",
+    "country_name": "croatia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 143,
+    "basket": "broad",
+    "country_code": "HU",
+    "country_name": "hungary",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 144,
+    "basket": "broad",
+    "country_code": "GR",
+    "country_name": "greece",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 145,
+    "basket": "narrow",
+    "country_code": "SE",
+    "country_name": "sweden",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 146,
+    "basket": "broad",
+    "country_code": "HK",
+    "country_name": "hong kong sar",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 147,
+    "basket": "narrow",
+    "country_code": "SG",
+    "country_name": "singapore",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 148,
+    "basket": "broad",
+    "country_code": "IL",
+    "country_name": "israel",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 149,
+    "basket": "narrow",
+    "country_code": "TW",
+    "country_name": "chinese taipei",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 150,
+    "basket": "broad",
+    "country_code": "IN",
+    "country_name": "india",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 151,
+    "basket": "narrow",
+    "country_code": "US",
+    "country_name": "united states",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 152,
+    "basket": "broad",
+    "country_code": "ID",
+    "country_name": "indonesia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 153,
+    "basket": "broad",
+    "country_code": "IE",
+    "country_name": "ireland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 154,
+    "basket": "broad",
+    "country_code": "DZ",
+    "country_name": "algeria",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 155,
+    "basket": "broad",
+    "country_code": "EE",
+    "country_name": "estonia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 156,
+    "basket": "narrow",
+    "country_code": "PT",
+    "country_name": "portugal",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 157,
+    "basket": "broad",
+    "country_code": "DE",
+    "country_name": "germany",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 158,
+    "basket": "broad",
+    "country_code": "DK",
+    "country_name": "denmark",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 159,
+    "basket": "broad",
+    "country_code": "FR",
+    "country_name": "france",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 160,
+    "basket": "broad",
+    "country_code": "GB",
+    "country_name": "united kingdom",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 161,
+    "basket": "broad",
+    "country_code": "ES",
+    "country_name": "spain",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 162,
+    "basket": "broad",
+    "country_code": "FI",
+    "country_name": "finland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 163,
+    "basket": "broad",
+    "country_code": "ZA",
+    "country_name": "south africa",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 164,
+    "basket": "broad",
+    "country_code": "SK",
+    "country_name": "slovakia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 165,
+    "basket": "broad",
+    "country_code": "TH",
+    "country_name": "thailand",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 166,
+    "basket": "broad",
+    "country_code": "SG",
+    "country_name": "singapore",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 167,
+    "basket": "broad",
+    "country_code": "SI",
+    "country_name": "slovenia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 168,
+    "basket": "broad",
+    "country_code": "US",
+    "country_name": "united states",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 169,
+    "basket": "broad",
+    "country_code": "XM",
+    "country_name": "euro area",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 170,
+    "basket": "broad",
+    "country_code": "TR",
+    "country_name": "türkiye",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 171,
+    "basket": "broad",
+    "country_code": "TW",
+    "country_name": "chinese taipei",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 172,
+    "basket": "broad",
+    "country_code": "PT",
+    "country_name": "portugal",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 173,
+    "basket": "broad",
+    "country_code": "RO",
+    "country_name": "romania",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 174,
+    "basket": "broad",
+    "country_code": "PH",
+    "country_name": "philippines",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 175,
+    "basket": "broad",
+    "country_code": "PL",
+    "country_name": "poland",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 176,
+    "basket": "broad",
+    "country_code": "SA",
+    "country_name": "saudi arabia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 177,
+    "basket": "broad",
+    "country_code": "SE",
+    "country_name": "sweden",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 178,
+    "basket": "broad",
+    "country_code": "RS",
+    "country_name": "serbia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 179,
+    "basket": "broad",
+    "country_code": "RU",
+    "country_name": "russia",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 180,
+    "basket": "broad",
+    "country_code": "AE",
+    "country_name": "united arab emirates",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 181,
+    "basket": "broad",
+    "country_code": "AE",
+    "country_name": "united arab emirates",
+    "created_at": "2026-05-06T19:12:23.440Z",
+    "frequency": "monthly",
+    "series_type": "real",
+    "updated_at": "2026-05-06T19:12:23.440Z"
+  },
+  {
+    "id": 182,
+    "basket": "narrow",
+    "country_code": "YY",
+    "country_name": "country y",
+    "created_at": "2026-05-17T15:52:12.512Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-17T15:52:12.512Z"
+  },
+  {
+    "id": 183,
+    "basket": "broad",
+    "country_code": "ZZ",
+    "country_name": "country z",
+    "created_at": "2026-05-17T17:10:23.162Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-17T17:10:23.162Z"
+  },
+  {
+    "id": 184,
+    "basket": "broad",
+    "country_code": "WW",
+    "country_name": "country w",
+    "created_at": "2026-05-17T17:23:29.741Z",
+    "frequency": "monthly",
+    "series_type": "nominal",
+    "updated_at": "2026-05-17T17:23:29.741Z"
+  }
+]

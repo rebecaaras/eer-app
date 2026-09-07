@@ -16,9 +16,16 @@ import DatePicker from "./DatePicker"
 import { useContext, useMemo, useState } from "react"
 import { ApiContext } from "../context/apiContext"
 import { Button } from "./ui/button"
+import { getSeriesById } from "../lib/api"
+import type { ChartDataPoint } from "../types"
 
-export default function ChartFiltersCard() {
+type ChartFiltersCardProps = {
+  onFilterChange: (data: ChartDataPoint[], seriesKeys: string[]) => void;
+};
+
+export default function ChartFiltersCard({ onFilterChange }: ChartFiltersCardProps) {
   const {seriesItems} = useContext(ApiContext);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [filters, setFilters] = useState({
     referenceAreas: [] as string[],
@@ -45,16 +52,49 @@ export default function ChartFiltersCard() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (isSubmitting) return;
 
-    const payload = {
-      referenceAreas: filters.referenceAreas,
-      seriesType: filters.seriesType,
-      basket: filters.basket,
-      startDate: filters.startDate?.toISOString(),
-      endDate: filters.endDate?.toISOString(),
-    };
+    const matchedSeries = seriesItems
+      .filter(
+        (item) =>
+          filters.referenceAreas.includes(item.country_name) &&
+          item.series_type === filters.seriesType &&
+          item.basket === filters.basket
+      )
+      .filter(
+        (item, index, self) =>
+          index === self.findIndex((t) => t.country_name === item.country_name)
+      );
 
-    console.log(payload);
+    setIsSubmitting(true);
+    try {
+      const results = await Promise.all(
+        matchedSeries.map((series) => getSeriesById(series.id))
+      );
+
+      const pointsByDate = new Map<string, ChartDataPoint>();
+
+      results.forEach(({ series, data }) => {
+        data.forEach(({ date, value }) => {
+          if (filters.startDate && new Date(date) < filters.startDate) return;
+          if (filters.endDate && new Date(date) > filters.endDate) return;
+
+          const point = pointsByDate.get(date) ?? { date };
+          point[series.country_name] = Number(value);
+          pointsByDate.set(date, point);
+        });
+      });
+
+      const chartData = Array.from(pointsByDate.values()).sort((a, b) =>
+        a.date.localeCompare(b.date)
+      );
+
+      onFilterChange(chartData, matchedSeries.map((series) => series.country_name));
+    } catch (error) {
+      console.error("Failed to load series data", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -163,12 +203,13 @@ export default function ChartFiltersCard() {
               />
           </Field>
 
-          <Button 
-            type="submit" 
-            className="w-full border-grey" 
+          <Button
+            type="submit"
+            className="w-full border-grey"
             variant="secondary"
+            disabled={isSubmitting}
           >
-            Show series
+            {isSubmitting ? "Loading..." : "Show series"}
           </Button>
         </CardFooter>
       </form>
