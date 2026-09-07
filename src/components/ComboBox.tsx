@@ -17,11 +17,12 @@ type ComboBoxProps = {
 export function ComboBox({ options, placeholder = "Select an option", onChange}: ComboBoxProps) {
   const [value, setValue] = useState("")
 
-  function handleChange(value: string){
-    setValue(value)
+  function handleChange(value: string | null){
+    const nextValue = value ?? ""
+    setValue(nextValue)
     // Whatever function passed in as a prop will receive the value 
     // variable and be able to use in the outer context
-    onChange?.(value)
+    onChange?.(nextValue)
   }
 
   return (
