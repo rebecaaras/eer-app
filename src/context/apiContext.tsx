@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState, type ReactNode } from "react";
 import axios from "axios"
 import type { ApiContextType } from "../types";
 import { API_BASE_URL } from "../lib/api";
@@ -8,7 +8,7 @@ export const ApiContext = createContext<ApiContextType>(
   {seriesItems: [], isLoading: false}
 );
 
-export default function ApiContextProvider({children}){
+export default function ApiContextProvider({children}: {children: ReactNode}){
   const [seriesItems, setseriesItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   
