@@ -11,10 +11,10 @@ import {
   PopoverTrigger,
 } from "../components/ui/popover"
 
-export default function DatePicker({onChange} : {onChange?: (date) => void}) {
+export default function DatePicker({onChange} : {onChange?: (date: Date | undefined) => void}) {
   const [date, setDate] = React.useState<Date>()
 
-  function handleChange(date){
+  function handleChange(date: Date | undefined){
     setDate(date)
     onChange?.(date)
   }

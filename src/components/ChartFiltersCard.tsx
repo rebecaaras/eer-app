@@ -182,7 +182,7 @@ export default function ChartFiltersCard({ onFilterChange }: ChartFiltersCardPro
                   (value) => {
                     setFilters((prev)=> ({
                       ...prev,
-                      startDate: value
+                      startDate: value ?? null
                     }))
                   }}
               />
@@ -197,7 +197,7 @@ export default function ChartFiltersCard({ onFilterChange }: ChartFiltersCardPro
                   (value) => {
                     setFilters((prev)=> ({
                       ...prev,
-                      endDate: value
+                      endDate: value ?? null
                     }))
                   }}
               />
